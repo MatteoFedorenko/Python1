@@ -1,14 +1,10 @@
-options = {
-    1: CreateTicket(),
-    2: ShowTickets(),
-    3: CloseTicket(),
-    4: SearchTicket(),
-    5: "Exit"
+import json
+
+user = {
+    "name": "Matvii",
+    "age": 18
 }
 
+with open("user.json", "w") as file:
+    json.dump(user, file)
 
-while True:
-    for option in options:
-        if option == 5:
-            print("hiiiii")
-        options[option]
