@@ -1,0 +1,20 @@
+[
+    {
+        "ID": 1,
+        "Problema": "Teams",
+        "Assegnato": "Assistenza",
+        "Stato problema": "Normale"
+    },
+    {
+        "ID": 2,
+        "Problema": "Outlook",
+        "Assegnato": "Milana",
+        "Stato problema": "Basso"
+    },
+    {
+        "ID": 3,
+        "Problema": "Word",
+        "Assegnato": "Oleg",
+        "Stato problema": "Alto"
+    }
+]

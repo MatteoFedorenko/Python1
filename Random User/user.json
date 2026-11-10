@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Jeremy",
+                "last": "Stanley"
+            },
+            "location": {
+                "street": {
+                    "number": 1031,
+                    "name": "Ranchview Dr"
+                },
+                "city": "Dumas",
+                "state": "Tennessee",
+                "country": "United States",
+                "postcode": 68018,
+                "coordinates": {
+                    "latitude": "88.5671",
+                    "longitude": "-74.9414"
+                },
+                "timezone": {
+                    "offset": "-1:00",
+                    "description": "Azores, Cape Verde Islands"
+                }
+            },
+            "email": "jeremy.stanley@example.com",
+            "login": {
+                "uuid": "7d61a3da-3c6d-42dd-bb4c-28a665014317",
+                "username": "crazysnake258",
+                "password": "redheads",
+                "salt": "pXBYk21S",
+                "md5": "6f0511d98d11debce9995308ec460d3a",
+                "sha1": "56a11db7266da9c2a08a69bcdc57dbc38cd4eaa1",
+                "sha256": "f93b1c19beefd2832ea8d687079a216b5d8d18cecc21085eec5ae41c22d3b656"
+            },
+            "dob": {
+                "date": "1974-05-20T18:33:11.995Z",
+                "age": 52
+            },
+            "registered": {
+                "date": "2016-01-24T11:47:32.213Z",
+                "age": 10
+            },
+            "phone": "(530) 222-0486",
+            "cell": "(711) 730-6876",
+            "id": {
+                "name": "SSN",
+                "value": "183-23-5393"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/40.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/40.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/40.jpg"
+            },
+            "nat": "US"
+        }
+    ],
+    "info": {
+        "seed": "df3582bbcfcad59f",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}

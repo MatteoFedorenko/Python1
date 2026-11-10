@@ -1,5 +1,11 @@
-tickets = []
+import json
 
+try:
+    with open("tickets.json", "r") as file:
+        tickets = json.load(file)
+
+except:
+    tickets = []
 
 def CreateTicket():
     print("--------------------------------")
@@ -15,6 +21,9 @@ def CreateTicket():
         "Assegnato": persona,
         "Stato problema": stato
     })
+    with open("tickets.json", "w") as file:
+        print("Saving..")
+        json.dump(tickets, file, indent=4)
 
 
 def ShowTickets():
@@ -26,7 +35,7 @@ def ShowTickets():
 
     for ticket in tickets:
         print(ticket["ID"],"|",ticket["Problema"],"|",ticket["Stato problema"],"|",ticket["Assegnato"])
-
+    
     print("=================================================")
 
 
